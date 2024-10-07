@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function App() {
-  const CUMLANG = import.meta.env.CUMLANG_API;
+  const CUMLANG = import.meta.env.VITE_CUMLANG_API;
   const [inputText, setInputText] = useState("");
   const [linesArray, setLinesArray] = useState([]);
   const [serverResponse, setServerResponse] = useState(null); // State to hold the server's response

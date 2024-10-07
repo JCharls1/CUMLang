@@ -2,14 +2,20 @@ import React from "react";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { solarizedlight } from "react-syntax-highlighter/dist/esm/styles/prism";
 import { dracula } from "react-syntax-highlighter/dist/esm/styles/prism";
-const SampleCode = () => {
+const IfStatements = () => {
   const codeString = `
-    cope("Hello, World!")
+    Lit  number = 17
+    
+    Highkey number > 18 tho
+        cope("Legal age")
+    Lowkey
+        cope("Illegal age")
+    rn
   `;
   return (
     <div className="m-10">
       <h5 className="flex justify-center text-silver-shit text-3xl font-Arial">
-        Sample Code
+        Statements
       </h5>
       <SyntaxHighlighter language="javascript" style={dracula}>
         {codeString}
@@ -18,4 +24,4 @@ const SampleCode = () => {
   );
 };
 
-export default SampleCode;
+export default IfStatements;

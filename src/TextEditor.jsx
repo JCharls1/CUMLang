@@ -18,7 +18,7 @@ function App() {
 
     // Send the array to the server
     try {
-      const response = await fetch("http://localhost:5000/write_array", {
+      const response = await fetch(CUMLANG, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

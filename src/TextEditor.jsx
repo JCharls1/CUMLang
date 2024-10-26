@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Reminder from "./Reminder";
 
 function App() {
   const CUMLANG = import.meta.env.VITE_CUMLANG_API;
@@ -64,7 +65,7 @@ function App() {
         <pre className="bg-silver-shit max-h-64 overflow-y-auto">
           {serverResponse
             ? JSON.stringify(serverResponse, null, 2)
-            : "No response yet"}
+            : "The server might be sleeping if the run button is not working... please wait a few seconds and try again."}
         </pre>
       </div>
     </div>

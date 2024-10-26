@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./App.css";
 import TextEditor from "./TextEditor";
 import Documentation from "./Documentation";
-import Reminder from "./Reminder";
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
           <h1 className="text-silver-shit text-3xl font-Arial">CUM Lang</h1>
         </div>
         <TextEditor></TextEditor>
-        <Reminder></Reminder>
         <Documentation></Documentation>
       </div>
     </>

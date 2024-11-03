@@ -65,7 +65,7 @@ function App() {
         <pre className="bg-silver-shit max-h-64 overflow-y-auto p-10">
           {serverResponse
             ? JSON.stringify(serverResponse, null, 2)
-            : "The server might be sleeping if the run button is not working... please wait a few seconds and try again."}
+            : "The server might be sleeping if the run button is not working... please wait a few minutes and try again."}
         </pre>
       </div>
     </div>

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Reminder from "./Reminder";
 
 function App() {
+  const a = ""
   const CUMLANG = import.meta.env.VITE_CUMLANG_API;
   const [inputText, setInputText] = useState("");
   const [linesArray, setLinesArray] = useState([]);
